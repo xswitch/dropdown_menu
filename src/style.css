@@ -1,4 +1,29 @@
-div {
-  color: orange;
-  font-size: 5rem;
+.ddItem {
+  padding: 10px;
+  background-color: dimgray;
+  color: white;
+}
+
+.ddChoice:hover {
+  background-color: darkgray;
+}
+
+.ddChoices {
+  border-radius: 5px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.ddContainer {
+  width: 150px;
+}
+
+.ddTitleContainer {
+  border-radius: 5px;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
